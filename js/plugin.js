@@ -581,7 +581,7 @@ function loadjQuery(url, success) {
 
 // ________________________________________________________
 
-// Function that runs once the document is loaded
+// Function that runs once document is loaded
 // ________________________________________________________
 
 (function() {
