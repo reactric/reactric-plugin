@@ -302,7 +302,8 @@ function reactricInit($) {
                         }, 100);
                     } else if (data.length <= 2) {
                         $('img.reactric-reaction-option-img').animate({
-                            width: "70px"
+                            width: "70px",
+                            margin-bottom: "20px"
                         }, 100);
                     }
 
