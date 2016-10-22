@@ -181,7 +181,7 @@ function reactricInit($) {
     $("<link/>", {
         rel: "stylesheet",
         type: "text/css",
-        href: "https://cdn.rawgit.com/reactric/reactric-plugin/master/css/style.min.css"
+        href: "https://cdn.rawgit.com/reactric/reactric-plugin/master/css/style.css"
     }).appendTo("head");
 
     // Loading the Cookie library
