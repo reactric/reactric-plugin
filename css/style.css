@@ -62,6 +62,7 @@ div.reactric-reaction-option-inactive > img.reactric-reaction-option-img {
 img.reactric-reaction-option-img {
     width: 60px;
     margin: auto;
+    margin-bottom: 10px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
