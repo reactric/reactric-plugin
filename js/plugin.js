@@ -298,12 +298,12 @@ function reactricInit($) {
                     // Changing the reaction option image size based on the number of options
                     if (data.length >= 5) {
                         $('img.reactric-reaction-option-img').animate({
-                            width: "45px"
+                            "width": "45px"
                         }, 100);
                     } else if (data.length <= 2) {
                         $('img.reactric-reaction-option-img').animate({
-                            width: "70px",
-                            margin-bottom: "20px"
+                            "width": "70px",
+                            "margin-bottom": "20px"
                         }, 100);
                     }
 
