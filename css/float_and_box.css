@@ -1,0 +1,141 @@
+/* Reactric float */
+
+div.reactric-float-panel {
+    bottom: 0;
+    position: fixed;
+    margin: 1em;
+    right: 0;
+    z-index: 99 !important;
+}
+div.reactric-float-panel * {
+    font-family: inherit;
+}
+div.reactric-float-panel div.reactric-buttons-container {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.18), 0px 5px 5px -7px rgba(0, 0, 0, 0.15);
+    margin: 15px auto -15px auto;
+}
+div.reactric-float-panel .reactric-fab-button,
+div.reactric-float-panel .reactric-reaction-button,
+div.reactric-float-panel .reactric-info-button {
+    border-radius: 50%;
+    display: block;
+    width: 56px;
+    height: 56px;
+    margin: 20px auto 0;
+    position: relative;
+}
+div.reactric-float-panel .reactric-fab-button {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.18), 0px 5px 5px -7px rgba(0, 0, 0, 0.15);
+}
+div.reactric-float-panel .reactric-fab-button > img {
+    height: 56px;
+    width: 56px;
+}
+div.reactric-float-panel .reactric-reaction-button,
+div.reactric-float-panel .reactric-info-button {
+    width: 42px;
+    height: 42px;
+    margin: 15px auto;
+}
+div.reactric-float-panel .reactric-reaction-button > img,
+div.reactric-float-panel .reactric-info-button > img {
+    height: 42px;
+    width: 42px;
+}
+div.reactric-float-panel .reactric-reaction-button:hover,
+div.reactric-float-panel .reactric-info-button:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+div.reactric-float-panel:hover div.reactric-buttons-container {
+    display: block;
+}
+div.reactric-float-panel [reactric-tooltip]:before {
+    bottom: 25%;
+    font-weight: 600;
+    border-radius: 15px;
+    background: #fff;
+    color: #2C3E50;
+    content: attr(reactric-tooltip);
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: 15px;
+    margin-bottom: -2px;
+    position: absolute;
+    right: 100%;
+    white-space: nowrap;
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.18), 0px 5px 5px -7px rgba(0, 0, 0, 0.15);
+    visibility: hidden;
+    opacity: 0;
+}
+div.reactric-float-panel:hover [reactric-tooltip]:before,
+div.reactric-float-panel:hover [reactric-tooltip]:after {
+    visibility: visible;
+    opacity: 1;
+}
+div.reactric-float-panel .reactric-reaction-button-inactive > img {
+    opacity: 0.2;
+}
+div.reactric-float-panel .reactric-reaction-button-active > img {
+    opacity: 1;
+}
+div.reactric-float-panel p.reactric-box-info {
+    display: none;
+}
+
+/* Reactric box */
+
+div.reactric-box-panel {
+    text-align: center;
+    background-color: inherit;
+}
+div.reactric-box-panel * {
+    font-family: inherit;
+}
+div.reactric-box-panel .reactric-reaction-button {
+    margin: 0px 20px 15px 20px;
+    color: #2C3E50;
+    display: inline-block;
+}
+div.reactric-box-panel .reactric-reaction-button > img {
+    width: 42px;
+    height: 42px;
+}
+div.reactric-box-panel .reactric-reaction-button:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+div.reactric-box-panel .reactric-reaction-button-inactive > img {
+    opacity: 0.2;
+}
+div.reactric-box-panel .reactric-reaction-button-active > img {
+    opacity: 1;
+}
+div.reactric-box-panel [reactric-tooltip]:before {
+    visibility: hidden;
+}
+div.reactric-box-panel a.reactric-underlined-link {
+    color: #1ABC9C;
+    border-bottom: 1px solid #1ABC9C;
+}
+div.reactric-box-panel a.reactric-underlined-link:hover {
+    color: #19B5FE;
+    border-bottom: 1px solid #19B5FE;
+}
+div.reactric-box-panel img.reactric-logo-img {
+    height: 56px;
+    width: 56px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
