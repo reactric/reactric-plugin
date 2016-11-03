@@ -45,3 +45,7 @@ div.reactric-box-panel img.reactric-logo-img {
     margin-bottom: 10px;
     margin-left: -15px;
 }
+div.reactric-box-panel .reactric-logo-svg {
+    margin-bottom: -20px;
+    margin-right: -10px;
+}
