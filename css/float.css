@@ -102,3 +102,7 @@ div.reactric-float-panel-left [reactric-tooltip]:before {
     right: auto;
     left: 100%;
 }
+div.reactric-float-panel .reactric-logo-svg {
+    margin-left: -12px;
+    margin-top: -11px;
+}
