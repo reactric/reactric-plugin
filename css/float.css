@@ -91,3 +91,13 @@ div.reactric-float-panel .reactric-reaction-button-active > img {
 div.reactric-float-panel p.reactric-box-info {
     display: none;
 }
+div.reactric-float-panel-left {
+    right: auto;
+    left: 0;
+}
+div.reactric-float-panel-left [reactric-tooltip]:before {
+    margin-right: 0px;
+    margin-left: 15px;
+    right: auto;
+    left: 100%;
+}
