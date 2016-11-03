@@ -4,7 +4,6 @@ div.reactric-float-panel {
     bottom: 0;
     position: fixed;
     margin: 1em;
-    right: 0;
     z-index: 99 !important;
 }
 div.reactric-float-panel * {
@@ -92,8 +91,10 @@ div.reactric-float-panel p.reactric-box-info {
     display: none;
 }
 div.reactric-float-panel-left {
-    right: auto;
     left: 0;
+}
+div.reactric-float-panel-right {
+    right: 0;
 }
 div.reactric-float-panel-left [reactric-tooltip]:before {
     margin-right: 0px;
