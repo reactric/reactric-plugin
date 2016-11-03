@@ -31,13 +31,12 @@ div.reactric-box-panel .reactric-reaction-button-active > img {
 div.reactric-box-panel [reactric-tooltip]:before {
     visibility: hidden;
 }
-div.reactric-box-panel a.reactric-underlined-link {
+div.reactric-box-panel a.reactric-link {
     color: #2C3E50;
-    border-bottom: 1px solid #2C3E50;
+    text-decoration: none;
 }
-div.reactric-box-panel a.reactric-underlined-link:hover {
+div.reactric-box-panel a.reactric-link:hover {
     color: #1ABC9C;
-    border-bottom: 1px solid #1ABC9C;
 }
 div.reactric-box-panel img.reactric-logo-img {
     height: 56px;
