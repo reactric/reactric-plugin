@@ -39,8 +39,7 @@ div.reactric-float-panel .reactric-fab-button > img {
 }
 div.reactric-float-panel .reactric-reaction-button,
 div.reactric-float-panel .reactric-info-button {
-    width: 42px;
-    height: 42px;
+    width: 100%;
     margin: 15px auto;
 }
 div.reactric-float-panel .reactric-reaction-button > img,
