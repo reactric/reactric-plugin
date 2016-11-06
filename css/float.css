@@ -39,13 +39,13 @@ div.reactric-float-panel .reactric-fab-button > img {
 }
 div.reactric-float-panel .reactric-reaction-button,
 div.reactric-float-panel .reactric-info-button {
-    width: 100%;
+    width: 42px;
+    height: 42px;
     margin: 15px auto;
 }
 div.reactric-float-panel .reactric-reaction-button > img,
 div.reactric-float-panel .reactric-info-button > img {
-    height: 42px;
-    width: 42px;
+    width: 100%;
 }
 div.reactric-float-panel .reactric-reaction-button:hover,
 div.reactric-float-panel .reactric-info-button:hover {
