@@ -121,7 +121,7 @@ div.reactric-box-panel .reactric-reaction-button {
     display: inline-block;
 }
 div.reactric-box-panel .reactric-reaction-button > img {
-    width: 56px;
+    width: 42px;
 }
 div.reactric-box-panel .reactric-reaction-button:hover {
     -webkit-transform: scale(1.2);
